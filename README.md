@@ -59,7 +59,8 @@ It’s really that easy this will iterate over all Workspaces For Each Workspace
 # End Goal 
 ![image](https://user-images.githubusercontent.com/39345855/197052634-f4d0e059-9fa2-4477-b2b7-feed655ff498.png)
 
-* Once the Script is complete running which might take 1 or 2 days depending upon how much data you have you can create Athena Tables just replace Bucket Name.
+* Once the Script is complete running which might take 1 or 2 days depending upon how much data you have 
+* you can Then create glue crawler and then  Query the data using Athena (SQL Query)
 
 
 
