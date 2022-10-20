@@ -1,3 +1,18 @@
+Metadata-Version: 2.1
+Name: clickup-to-s3-migration
+Version: 1.0.0
+Summary:  My coworkers and I created this free and open-source library. Anyone can now transfer entire clicks folders, tickets, and comments to AWS S3. When we switched from Clickup to JIRA software, this task was essentially done to backup the entire Clickup system. This threaded script employs the maximum number of threads to use ClickUP APIS and migrate all data into Data Lake S3 so that users or teams can use Athena to query using regular SQL if necessary. 
+Home-page: https://github.com/soumilshah1995/clickup_to_s3_migration
+Author: Soumil Nitin Shah
+Author-email: shahsoumil519@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 # ClickUp to Data Lake (S3) Migration and backup All Data Scripts
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)]
@@ -46,7 +61,7 @@ def main():
 main()
 
 ```
-It’s really that easy this will iterate over all Workspaces For Each Workspaces it will call all Spaces and For Each Space it will get all Folders and For Each Folder it will Call List and For Each list call Tickets and Each Tickets call Comments
+Itâ€™s really that easy this will iterate over all Workspaces For Each Workspaces it will call all Spaces and For Each Space it will get all Folders and For Each Folder it will Call List and For Each list call Tickets and Each Tickets call Comments
 
 ------------------------------------------------------------------
 
@@ -67,4 +82,6 @@ It’s really that easy this will iterate over all Workspaces For Each Workspace
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+
 
